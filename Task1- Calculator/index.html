@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta value="viewport" content="width=s, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <p>
+            CALCULATOR
+        </p>
+    </div>
+    <div class="container">
+        <div class="input">
+            <p id="screen"></p>
+        </div>
+
+        <div class="line">
+            <button onclick="show('7')" value="7">7</button>
+            <button onclick="show('8')" value="8">8</button>
+            <button onclick="show('9')" value="9">9</button>
+            <button onclick="rem()" value="C">C</button>
+        </div>
+        <div class="line">
+            <button onclick="show('4')" value="4">4</button>
+            <button onclick="show('5')" value="5">5</button>
+            <button onclick="show('6')" value="6">6</button>
+            <button onclick="show('*')" value="X">*</button>
+        </div>
+        <div class="line">
+            <button onclick="show('1')" value="1">1</button>
+            <button onclick="show('2')" value="2">2</button>
+            <button onclick="show('3')" value="3">3</button>
+            <button onclick="show('-')" value="-">--</button>
+        </div>
+        <div class="line">
+            <button onclick="show('0')" value="0">0</button>
+            <button onclick="show('.')" value=".">.</button>
+            <button onclick="compute()" value="=">=</button>
+            <button onclick="show('+')" value="+">+</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

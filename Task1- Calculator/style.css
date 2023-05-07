@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    background: #c1cdb7;
+}
+
+.container {
+    padding: 10px;
+    margin-top: 3vh;
+    margin-left: 38vw;
+    height: 70vh;
+    width: 24vw;
+    border-radius: 10px;
+    background: #c1cdb7;
+    box-shadow: 6px 6px 12px #a4ae9c,
+        -6px -6px 12px #deecd2;
+}
+
+
+
+.line button {
+    margin-left: 14px;
+    margin-top: 16px;
+    height: 60px;
+    width: 60px;
+    color: #090909;
+    border-radius: 10px;
+    background: #c1cdb7;
+    border: none;
+    transition: all .3s;
+    box-shadow: 5px 5px 10px #a0aa98,
+        -5px -5px 10px #e2f0d6;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.line button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #a0aa98,
+        inset -4px -4px 12px #e2f0d6;
+}
+
+.line {
+    display: flex;
+
+
+}
+
+.input {
+    height: 130px;
+    width: 307px;
+    border-radius: 10px;
+    background: #c1cdb7;
+    box-shadow: inset 8px 8px 16px #a0aa98,
+        inset -8px -8px 16px #e2f0d6;
+}
+
+.input p {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    width: 290px;
+    font-size: 35px;
+    font-weight: 800;
+    word-wrap: break-word;
+    line-height: 35px;
+
+    color: #555555;
+    text-shadow: 1px 1px 1px #3c3c3c,
+        1px 2px 1px #3c3c3c,
+        1px 3px 1px #3c3c3c,
+        1px 10px 6px rgba(16, 16, 16, 0.4),
+        1px 15px 35px rgba(16, 16, 16, 0.2),
+        1px 20px 60px rgba(16, 16, 16, 0.4);
+}
+
+.heading p {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    top: 20px;
+    font-size: 80px;
+
+    color: #555555;
+    text-shadow: 1px 1px 1px #3c3c3c,
+        1px 2px 1px #3c3c3c,
+        1px 3px 1px #3c3c3c,
+        1px 4px 1px #3c3c3c,
+        1px 5px 1px #3c3c3c,
+        1px 6px 1px #3c3c3c,
+        1px 7px 1px #3c3c3c,
+        1px 8px 1px #3c3c3c,
+        1px 9px 1px #3c3c3c,
+        1px 10px 1px #3c3c3c,
+        1px 18px 6px rgba(16, 16, 16, 0.4),
+        1px 22px 10px rgba(16, 16, 16, 0.2),
+        1px 25px 35px rgba(16, 16, 16, 0.2),
+        1px 30px 60px rgba(16, 16, 16, 0.4);
+}
